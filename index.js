@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 // Configuração da conexão com banco de dados
 const db = mysql.createConnection({
-  host: '31.97.255.115',
+  host: 'mariadb',
   port: 3306,
   user: 'root',
   password: 'rodrigo0196',
