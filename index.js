@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 // Configuração da conexão com banco de dados
 const db = mysql.createConnection({
   host: 'p84sgg0oc8088ss44wo80s04',
-  port: 3306,
+  port: 3307,
   user: 'root',
   password: 'rodrigo0196',
   database: 'marmitariafarias' 
